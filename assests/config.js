@@ -43,8 +43,11 @@ function nextQuestion() {
     if(cards.dataset.index = [0]) {
         // cards.setAttribute('style', 'scale: 0;');
         cards.setAttribute('data-status', 'unknown');
-    }
 
+    }
+    if(cards.dataset.index = [1]) {
+        cards.setAttribute('data-status', 'active');
+    }
 }
 
 button.addEventListener('click', function(event) {
